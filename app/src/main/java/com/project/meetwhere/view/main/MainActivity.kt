@@ -64,6 +64,15 @@ class MainActivity : AppCompatActivity() {
         return when (item.itemId) {
             // 추가 버튼 클릭시
             R.id.action_add -> {
+                if (count < 5) {
+                    val intent = Intent(this, SelectActivity::class.java)
+                    startActivityForResult(intent, 100);
+                    item.isVisible = true
+                }
+
+                if (count == 4) {
+                    item.isVisible = false
+                }
                 return true
             }
 

@@ -13,3 +13,14 @@
 .externalNativeBuild
 .cxx
 local.properties
+app/src/main/assets/Jalnan.ttf
+app/src/main/assets/station.json
+app/src/main/assets/station_line_1.json
+app/src/main/assets/station_line_2.json
+app/src/main/assets/station_line_3.json
+app/src/main/assets/station_line_4.json
+app/src/main/assets/station_line_5.json
+app/src/main/assets/station_line_6.json
+app/src/main/assets/station_line_7.json
+app/src/main/assets/station_line_8.json
+app/src/main/assets/station_line_9.json
