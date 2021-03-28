@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="8dp"
+    android:layout_marginTop="12dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginBottom="12dp"
+    android:background="@drawable/card_search_bar"
+    android:paddingLeft="20dp"
+    android:paddingTop="32dp"
+    android:paddingRight="20dp"
+    android:paddingBottom="32dp">
+
+    <TextView
+        android:id="@+id/text_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:orientation="horizontal">
+        <!-- 1호선 -->
+        <RelativeLayout
+            android:id="@+id/line1"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/line_1"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="1"
+                android:textColor="@color/white" />
+        </RelativeLayout>
+
+        <!-- 2호선 -->
+        <RelativeLayout
+            android:id="@+id/line2"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/line_2"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="2"
+                android:textColor="@color/white" />
+        </RelativeLayout>
+
+        <!-- 3호선 -->
+        <RelativeLayout
+            android:id="@+id/line3"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/line_3"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="3"
+                android:textColor="@color/white" />
+        </RelativeLayout>
+
+        <!-- 4호선 -->
+        <RelativeLayout
+            android:id="@+id/line4"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/line_4"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="4"
+                android:textColor="@color/white" />
+        </RelativeLayout>
+
+        <!-- 5호선 -->
+        <RelativeLayout
+            android:id="@+id/line5"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/line_5"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="5"
+                android:textColor="@color/white" />
+        </RelativeLayout>
+
+        <!-- 6호선 -->
+        <RelativeLayout
+            android:id="@+id/line6"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/line_6"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="6"
+                android:textColor="@color/white" />
+        </RelativeLayout>
+
+        <!-- 7호선 -->
+        <RelativeLayout
+            android:id="@+id/line7"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/line_7"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="7"
+                android:textColor="@color/white" />
+        </RelativeLayout>
+
+        <!-- 8호선 -->
+        <RelativeLayout
+            android:id="@+id/line8"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/line_8"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="8"
+                android:textColor="@color/white" />
+        </RelativeLayout>
+
+        <!-- 9호선 -->
+        <RelativeLayout
+            android:id="@+id/line9"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/line_9"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="9"
+                android:textColor="@color/white" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

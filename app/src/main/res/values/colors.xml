@@ -6,4 +6,7 @@
 
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- Search bar -->
+    <color name="searchBar">#EBEBEB</color>
 </resources>
