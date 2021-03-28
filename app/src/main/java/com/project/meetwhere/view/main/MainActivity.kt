@@ -13,6 +13,7 @@ import androidx.lifecycle.ViewModelProvider
 import com.project.meetwhere.R
 import com.project.meetwhere.adapter.StationAdapter
 import com.project.meetwhere.model.Station
+import com.project.meetwhere.view.find.FindActivity
 import com.project.meetwhere.view.select.SelectActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -51,6 +52,20 @@ class MainActivity : AppCompatActivity() {
             }
             count = it
         })
+
+        // 중간역을 찾는 버튼 클릭시
+        button_next.setOnClickListener {
+            val intent = Intent(this, FindActivity::class.java)
+
+            var intentArr = ""
+            for (item in list) {
+                intentArr += item.name + "|"
+            }
+            intentArr = intentArr.substring(0, intentArr.length - 1);
+
+            intent.putExtra("List", intentArr)
+            startActivity(intent)
+        }
     }
 
 
